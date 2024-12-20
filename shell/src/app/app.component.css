@@ -1,0 +1,12 @@
+ul {
+  list-style-type: none
+}
+
+li {
+  padding: 10px;
+  font-size: 20px;
+}
+
+section.mf {
+  border: 1px #666 solid;
+}
