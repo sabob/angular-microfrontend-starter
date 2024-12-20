@@ -37,41 +37,28 @@ npm --prefix mfe2 i
 
 ## Running the Applications
 
-To run the individual applications:
+To run the individual applications open a separate terminal window 
+and run the respective commands:
 
 - **Shell**:  
-  Starts the host application on `http://localhost:4200`.  
+  Starts the Shell application on [http://localhost:4200](http://localhost:4200).
   ```bash
   npm --prefix shell run start
   ```
 
-- **MFE1**:  
-  Starts Microfrontend 1 on its own server.  
+- **MFE1**:
+Starts Microprofile App 1 on [http://localhost:4201](http://localhost:4201).  
+   
   ```bash
   npm --prefix mfe1 run start
   ```
 
-- **MFE2**:  
-  Starts Microfrontend 2 on its own server.  
+- **MFE2**:
+Starts Microprofile App 2 on [http://localhost:4201](http://localhost:4202).  
+   
   ```bash
   npm --prefix mfe2 run start
   ```
-
-### Run All Applications Simultaneously
-
-You can run all applications concurrently with the following commands:
-
-### For Linux or macOS:
-
-```bash
-npm --prefix shell run start & npm --prefix mfe1 run start & npm --prefix mfe2 run start
-```
-
-### For Windows:
-
-```bash
-npm --prefix shell run start && npm --prefix mfe1 run start && npm --prefix mfe2 run start
-```
 
 Now you can easily copy and paste the appropriate command for your operating system.
 
