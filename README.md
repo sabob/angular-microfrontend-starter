@@ -37,7 +37,7 @@ npm --prefix mfe2 i
 
 ## Running the Applications
 
-To run the individual applications open a separate terminal window 
+To run the individual applications open a separate terminal  window for each 
 and run the respective commands:
 
 - **Shell**:  
